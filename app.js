@@ -32,7 +32,28 @@ const myStat = {
 console.log(myStat)
 
 
-  
+// ПРЕОБРАЗОВАНИЕ
+
+let value;
+
+// Number to String
+value = String(10);
+value = String(10 + 30);
+value = (66).toString();
+
+// Boolean to string
+value = String(false);
+
+// Array to string
+value = String([1, 2, 3]);
+
+// Object to string
+value = String({ name: 'Denis' });
+value = 30 * 5;
+value = true + 30;
+
+console.log(value)
+console.log(typeof value)
 
 
 
