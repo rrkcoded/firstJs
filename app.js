@@ -92,6 +92,6 @@ value = Math.floor(Math.random() * 10 + 1); // рандом 1-10
 const arr = ['black', 'red', 'yellow', 'pink', 'white', 'blue', 'orange', 'green'];
 value = Math.floor(Math.random() * arr.length);
 
-console.log(value, arr[value])
+console.log(value, arr[value]);
 
 
