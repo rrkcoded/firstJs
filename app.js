@@ -30,6 +30,7 @@ const myStat = {
 };
 console.log(myStat)
 
+console.clear();
 
 // ПРЕОБРАЗОВАНИЕ
 
@@ -93,5 +94,9 @@ const arr = ['black', 'red', 'yellow', 'pink', 'white', 'blue', 'orange', 'green
 value = Math.floor(Math.random() * arr.length);
 
 console.log(value, arr[value]);
+
+console.log(value)
+console.log(typeof value)
+
 
 
