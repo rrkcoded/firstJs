@@ -30,7 +30,6 @@ const myStat = {
 };
 console.log(myStat)
 
-console.clear();
 
 // ПРЕОБРАЗОВАНИЕ
 
@@ -54,7 +53,6 @@ value = true + 30;
 
 console.log(value)
 console.log(typeof value)
-console.clear();
 
 // Numbers
 
@@ -97,6 +95,40 @@ console.log(value, arr[value]);
 
 console.log(value)
 console.log(typeof value)
+console.clear();
 
+const firstNames = 'Andrii';
+const lastNames = 'Zhel';
+const age = '17';
+const str = 'Hello, my name Andrii'
 
+let pipo;
 
+pipo = firstNames + firstNames;
+pipo = firstNames + ' ' + lastNames;
+pipo = 'Im ' + firstNames + firstNames;
+pipo = 'Im' + ' ' + firstNames + ' ' + firstNames;
+pipo = 'Im' + ' ' + age + ' ' + 'years old';
+
+pipo = firstNames.length;
+pipo = firstNames[2];
+
+pipo = lastNames[lastNames.length - 1];
+pipo = firstNames.toUpperCase();
+pipo = firstNames.concat(' ', lastNames);
+
+pipo = str.indexOf('n');
+pipo = str.indexOf('m', 10);
+pipo = str.indexOf('my');
+
+pipo = str.includes('my'); // true
+pipo = str.includes('1'); // false
+pipo = str.includes('ANDRII'); // false
+
+pipo = str.slice(0, 7);
+pipo = str.slice(0, -3);
+
+pipo = str.replace('my', 'Hello')
+pipo = str.replace('name', 'surname')
+
+console.log(pipo)
