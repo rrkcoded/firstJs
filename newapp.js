@@ -12,27 +12,27 @@ str = '<ul>' +
     '<li>Age: ' + age + '</li>' +
     '</ul>';
 
-// console.log(str)
+console.log(str)
 
-// ES6
-// str = `
-//  <ul>
-//  <li>First name: ${ firstName }</li>
-//  <li>Last name: ${ lastName }</li>
-//  <li>Age: ${ age }</li>
-//  <li>Random number: ${ Math.random() }</li>
-//  <li>5 + 5 = ${ 5+6 }</li>
-// </ul>
-// `;
-// // let price  = 20;
-// // let discount = 5;
-// // let priceElement = document.getElementById('price');
-// // priceElement.innerHTML = getFinalPrice(price, discount);
-// // function getFinalPrice(price, discount)
-// // {
-// //     return price - discount;
-// // }
-// document.body.innerHTML = str;
+ES6
+str = `
+ <ul>
+ <li>First name: ${ firstName }</li>
+ <li>Last name: ${ lastName }</li>
+ <li>Age: ${ age }</li>
+ <li>Random number: ${ Math.random() }</li>
+ <li>5 + 5 = ${ 5+6 }</li>
+</ul>
+`;
+let price  = 20;
+let discount = 5;
+let priceElement = document.getElementById('price');
+priceElement.innerHTML = getFinalPrice(price, discount);
+function getFinalPrice(price, discount)
+{
+    return price - discount;
+}
+document.body.innerHTML = str;
 
 const user = {
     firstName: 'Andrii',
@@ -100,21 +100,21 @@ if (nick == 'rrkcode'){
     console.log('Nope');
 }
 
-// $a = 15;
-// $b = 15;
-// if($a !== $b){
-//     alert('equal')
-// } else {
-//     alert('not equal')
-// }
+$a = 15;
+$b = 15;
+if($a !== $b){
+    alert('equal')
+} else {
+    alert('not equal')
+}
 
-// $a = 1;
-// $b = true;
-// if($a != $b){
-//     alert('1')
-// } else {
-//     alert('2')
-// }
+$a = 1;
+$b = true;
+if($a != $b){
+    alert('1')
+} else {
+    alert('2')
+}
 $a = 1;
 $b = true;
 if($a !== $b){
@@ -125,34 +125,34 @@ if($a !== $b){
 console.clear()
 //         ||  &&  !
 
-// s = 100;
-// if (s == 10) {
-//     alert(true);
-// } else {
-//     alert(false);
-// }
-//
-// mas = [1];
-// if (mas.length !== 0) {
-//     console.log(mas);
-// } else {
-//     console.log('array is empty');
-// }
-//
-//
-// if (Array.isArray(mas)) {
-//     console.log(mas);
-// } else {
-//     console.log('array is empty');
-// }
-// let users = {
-//     name: 'Denis'
-// };
-// if (users.hasOwnProperty('name')) {
-//     console.log(users.name);
-// } else {
-//     console.log('nope');
-// }
+s = 100;
+if (s == 10) {
+    alert(true);
+} else {
+    alert(false);
+}
+
+mas = [1];
+if (mas.length !== 0) {
+    console.log(mas);
+} else {
+    console.log('array is empty');
+}
+
+
+if (Array.isArray(mas)) {
+    console.log(mas);
+} else {
+    console.log('array is empty');
+}
+let users = {
+    name: 'Denis'
+};
+if (users.hasOwnProperty('name')) {
+    console.log(users.name);
+} else {
+    console.log('nope');
+}
 let god = 20;
 if (god < 18 || god > 46) {
     console.log('some actions');
@@ -184,68 +184,29 @@ console.clear()
 let a = 1;
 let b = 0;
 
-// if (a > 0) {
-//     b = a;
-// } else {
-//     b += 1;
-// }
+if (a > 0) {
+    b = a;
+} else {
+    b += 1;
+}
 
 // выражение ? если true : если false
 
-// let c = a > 0 ? b = a : b += 1;
-//
-// console.log(`b: ${b}, c: ${c}`);
-// console.log(b);
-//
-// let color = 'green';
-// switch(color) {
-//     case 'green':
-//         console.log('Color is green');
-//         break;
-//     case 'red':
-//         console.log('Color is red');
-//         break;
-//     default:
-//         console.log('Default')
-// }
-//
-//
-//
-// //     while,   do while,   for,   for of,   for in
-//
-// let i = 0;
-// while (i++ < 10) {
-//     console.log(i);
-// }
-//
-// do {
-//     console.log('some action');
-// } while (i < 0)
+let c = a > 0 ? b = a : b += 1;
 
+console.log(`b: ${b}, c: ${c}`);
+console.log(b);
 
-// for (let i = 0; i < 10; i++) {
-//     console.log(i)
-// }
-
-// let name = 'Andrey' + ' Zhel';
-// let nicks = '';
-//
-// for (let i = 0; i < name.length; i++) {
-//     console.log(name[i] + '!' + '   test')
-// }
-//
-// for (let i = 0; i < name.length; i++) {
-//     nicks += name[i] + ' . '
-//     console.log(nicks)
-// }
-// console.log(nicks)
-// let colors = ['red', 'white', 'blue', 'black',];
-// for (let i = 0; i < colors.length; i++);
-// console.log(colors[i]);
-
-for (let i = 0; i < 10; i++) {
-    if (i === 5) {
-        continue;
-    }
-    console.log(i)
+let color = 'green';
+switch(color) {
+    case 'green':
+        console.log('Color is green');
+        break;
+    case 'red':
+        console.log('Color is red');
+        break;
+    default:
+        console.log('Default')
 }
+
+
