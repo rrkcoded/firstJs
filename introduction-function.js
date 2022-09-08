@@ -67,3 +67,59 @@ console.clear();
 const square = function (x) {
     return x * x;
 };
+
+
+function sum(a, b) {
+
+    return a > b;
+}
+
+let d = sum(10, 15);
+console.log(d);
+console.log(sum(10, 15));
+
+
+function rax(aa, bb) {
+    if (aa < bb) {
+        return bb;
+    } else {
+        return aa;
+    }
+}
+
+rax()
+console.log(rax(110, 15))
+
+
+function number(counter) {
+    i = 0;
+    while (i < counter) {
+        i++;
+        console.log(i);
+    }
+}
+
+number(29)
+console.clear()
+
+
+function lines(line) {
+    return line.length;
+}
+
+lines('12345')
+console.log(lines('12345333'))
+
+
+function sayDay(day) {
+    cont = 0;
+    while (cont < 31) {
+        cont++;
+        console.log('Day ' + cont);
+    }
+}
+
+sayDay()
+
+
+
